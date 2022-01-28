@@ -1,0 +1,44 @@
+.good{
+    background-color: green;
+}
+
+.moderate{
+    background-color: yellow;
+}
+
+.unhealthy-sensitive{
+    background-color: orange;
+}
+
+.unhealthy{
+    background-color: red;
+}
+
+.very-unhealthy{
+    background-color: purple;
+}
+
+.hazardous{
+    background-color: brown;
+}
+
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: rgb(104, 93, 95);
+}
+
+.container-aqi{
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 1.5rem;
+    height: auto;
+}
+
+.aqi-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color:#000;
+    margin:0;
+    line-height: 0;
+}

@@ -1,0 +1,14 @@
+<div>
+  <p class="title">{{ station.station.name }}</p>
+  <div class="container-aqi"  [ngStyle]="{'background-color': $any(station.aqi)<=50 && $any(station.aqi)>0?'green': $any(station.aqi)>50 && $any(station.aqi)<=100? 'yellow':$any(station.aqi)>100 && $any(station.aqi)<=150?'orange':'transparent'}">
+
+     <p class="aqi-text"
+   
+  >
+  {{ station.aqi }}
+  </p>
+
+  </div>
+ 
+    
+</div>

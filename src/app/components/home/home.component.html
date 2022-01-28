@@ -1,0 +1,9 @@
+<h1 class="title">Air Quality index for different stations at Bogotá D.C., Colombia</h1>
+
+<div *ngIf="stations">
+  <app-station
+    *ngFor="let station of stations; let i = index"
+    [station]="station"
+    [i]="i"
+  ></app-station>
+</div>
